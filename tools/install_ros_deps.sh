@@ -36,6 +36,7 @@ if [[ "$DISTRO" == "xenial" ]]; then
     sudo apt-get update
 fi
 
+# Those gcc and g++ versions may need to be changed to 12 too
 sudo apt-get install -y gcc-8 g++-8
 sudo apt-get install -y ros-$ROS_DISTRO-mavros* ros-$ROS_DISTRO-tf2-sensor-msgs ros-$ROS_DISTRO-tf2-geometry-msgs
 

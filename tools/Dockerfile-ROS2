@@ -1,5 +1,6 @@
 FROM ros:foxy-ros-base
 
+# May be required to change gcc and g++ to 12th version
 RUN     apt-get update &&\
         apt-get install -y\
         apt-utils \
